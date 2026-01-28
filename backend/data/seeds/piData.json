@@ -1,0 +1,832 @@
+[
+    {
+        "category": "Kitchen & Dining > Utensils",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 12.5,
+                "rank": 8,
+                "trend": "down",
+                "changePercent": -4.2
+            },
+            "competitors": [
+                {
+                    "brand": "OXO Good Grips",
+                    "sov": 22.1,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "KitchenAid",
+                    "sov": 18.3,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Gorilla Grip",
+                    "sov": 14.5,
+                    "rank": 3,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Zulay Kitchen",
+                    "sov": 9.2,
+                    "rank": 4,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Joseph Joseph",
+                    "sov": 8.7,
+                    "rank": 5,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 5.99,
+            "q1": 9.99,
+            "median": 14.99,
+            "q3": 24.99,
+            "max": 49.99,
+            "yourPrice": 16.99
+        },
+        "topProducts": [
+            {
+                "asin": "B00004OCNS",
+                "title": "OXO Good Grips Swivel Peeler",
+                "rank": 1,
+                "price": 11.99,
+                "rating": 4.8,
+                "reviews": 32540
+            },
+            {
+                "asin": "B07XY3J63S",
+                "title": "KitchenAid Gourmet Can Opener",
+                "rank": 2,
+                "price": 14.99,
+                "rating": 4.6,
+                "reviews": 12890
+            },
+            {
+                "asin": "B01N278E62",
+                "title": "Gorilla Grip Tongs",
+                "rank": 3,
+                "price": 13.99,
+                "rating": 4.7,
+                "reviews": 8500
+            },
+            {
+                "asin": "B07H457T45",
+                "title": "Zulay Kitchen Garlic Press",
+                "rank": 4,
+                "price": 19.99,
+                "rating": 4.9,
+                "reviews": 5400
+            },
+            {
+                "asin": "B08R974532",
+                "title": "YourBrand Premium Spatula",
+                "rank": 8,
+                "price": 16.99,
+                "rating": 4.5,
+                "reviews": 850
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 5.2,
+            "seasonality": "High (Q4)",
+            "competitionLevel": "High"
+        },
+        "keyInsights": [
+            "Users shifting to silicone based utensils",
+            "Premium handles command higher price",
+            "Bundle packs gaining SOV"
+        ]
+    },
+    {
+        "category": "Office Products > Desk Accessories",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 9.8,
+                "rank": 12,
+                "trend": "up",
+                "changePercent": 1.5
+            },
+            "competitors": [
+                {
+                    "brand": "SimpleHouseware",
+                    "sov": 18.5,
+                    "rank": 1,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Marbrasse",
+                    "sov": 15.2,
+                    "rank": 2,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Post-it",
+                    "sov": 12.1,
+                    "rank": 3,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Rolodex",
+                    "sov": 10.5,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Mind Reader",
+                    "sov": 9.9,
+                    "rank": 5,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 8.99,
+            "q1": 15.99,
+            "median": 22.99,
+            "q3": 35.99,
+            "max": 65.99,
+            "yourPrice": 19.99
+        },
+        "topProducts": [
+            {
+                "asin": "B01N6C1E23",
+                "title": "SimpleHouseware Mesh Desk Organizer",
+                "rank": 1,
+                "price": 24.87,
+                "rating": 4.8,
+                "reviews": 15420
+            },
+            {
+                "asin": "B07K963212",
+                "title": "Marbrasse Pen Holder",
+                "rank": 2,
+                "price": 12.99,
+                "rating": 4.6,
+                "reviews": 6500
+            },
+            {
+                "asin": "B089K89234",
+                "title": "YourBrand Desk Mat",
+                "rank": 12,
+                "price": 19.99,
+                "rating": 4.4,
+                "reviews": 320
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 3.1,
+            "seasonality": "Medium (Back to School)",
+            "competitionLevel": "Medium"
+        },
+        "keyInsights": [
+            "Aesthetics driving purchases (Pastel colors)",
+            "Wire mesh organizers losing share to acrylic",
+            "Higher prices for ergonomic features"
+        ]
+    },
+    {
+        "category": "Sports & Outdoors > Resistance Bands",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 14.5,
+                "rank": 4,
+                "trend": "steady",
+                "changePercent": 0.2
+            },
+            "competitors": [
+                {
+                    "brand": "FitSimplify",
+                    "sov": 25.4,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Letsfit",
+                    "sov": 18.2,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Whatafit",
+                    "sov": 12.1,
+                    "rank": 3,
+                    "trend": "down"
+                },
+                {
+                    "brand": "TheFitLife",
+                    "sov": 11.5,
+                    "rank": 5,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Renoj",
+                    "sov": 8.3,
+                    "rank": 6,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 6.99,
+            "q1": 12.99,
+            "median": 19.99,
+            "q3": 29.99,
+            "max": 49.99,
+            "yourPrice": 22.99
+        },
+        "topProducts": [
+            {
+                "asin": "B01AVDVHTI",
+                "title": "Fit Simplify Resistance Loop Exercise Bands",
+                "rank": 1,
+                "price": 12.95,
+                "rating": 4.5,
+                "reviews": 115000
+            },
+            {
+                "asin": "B07K663211",
+                "title": "Letsfit Resistance Bands",
+                "rank": 2,
+                "price": 9.99,
+                "rating": 4.6,
+                "reviews": 68000
+            },
+            {
+                "asin": "B08X567890",
+                "title": "YourBrand Pro Resistance Set",
+                "rank": 4,
+                "price": 22.99,
+                "rating": 4.8,
+                "reviews": 1250
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 8.5,
+            "seasonality": "High (Q1)",
+            "competitionLevel": "High"
+        },
+        "keyInsights": [
+            "Video content crucial for conversion",
+            "Fabric bands gaining popularity over latex",
+            "High return rate due to breakage complaints"
+        ]
+    },
+    {
+        "category": "Home Improvement > Smart Plugs",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 8.2,
+                "rank": 7,
+                "trend": "down",
+                "changePercent": -1.5
+            },
+            "competitors": [
+                {
+                    "brand": "Kasa Smart",
+                    "sov": 35.6,
+                    "rank": 1,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Amazon Basics",
+                    "sov": 20.1,
+                    "rank": 2,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Govee",
+                    "sov": 12.4,
+                    "rank": 3,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Wemo",
+                    "sov": 8.9,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Wyze",
+                    "sov": 8.5,
+                    "rank": 5,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 14.99,
+            "q1": 19.99,
+            "median": 24.99,
+            "q3": 39.99,
+            "max": 59.99,
+            "yourPrice": 22.99
+        },
+        "topProducts": [
+            {
+                "asin": "B079B7SHD8",
+                "title": "Kasa Smart Plug HS103P2",
+                "rank": 1,
+                "price": 19.99,
+                "rating": 4.6,
+                "reviews": 56000
+            },
+            {
+                "asin": "B082123456",
+                "title": "YourBrand Smart Socket",
+                "rank": 7,
+                "price": 22.99,
+                "rating": 4.3,
+                "reviews": 450
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 12.0,
+            "seasonality": "Medium (Q4)",
+            "competitionLevel": "Extreme"
+        },
+        "keyInsights": [
+            "Matter support is the new standard",
+            "Energy monitoring features drive premium price",
+            "Multi-pack sales volume is high"
+        ]
+    },
+    {
+        "category": "Beauty > Face Serums",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 10.1,
+                "rank": 6,
+                "trend": "up",
+                "changePercent": 3.2
+            },
+            "competitors": [
+                {
+                    "brand": "TruSkin",
+                    "sov": 18.2,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "CeraVe",
+                    "sov": 16.5,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "La Roche-Posay",
+                    "sov": 14.1,
+                    "rank": 3,
+                    "trend": "up"
+                },
+                {
+                    "brand": "The Ordinary",
+                    "sov": 12.8,
+                    "rank": 4,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Eva Naturals",
+                    "sov": 9.5,
+                    "rank": 5,
+                    "trend": "down"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 9.99,
+            "q1": 18.00,
+            "median": 28.00,
+            "q3": 45.00,
+            "max": 120.00,
+            "yourPrice": 24.99
+        },
+        "topProducts": [
+            {
+                "asin": "B01M4MCUAF",
+                "title": "TruSkin Vitamin C Serum",
+                "rank": 1,
+                "price": 21.97,
+                "rating": 4.5,
+                "reviews": 98000
+            },
+            {
+                "asin": "B08J345678",
+                "title": "YourBrand Hyaluronic Acid",
+                "rank": 6,
+                "price": 24.99,
+                "rating": 4.7,
+                "reviews": 980
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 6.8,
+            "seasonality": "Low",
+            "competitionLevel": "High"
+        },
+        "keyInsights": [
+            "Clean beauty claims gaining traction",
+            "Before/After images critical for CTR",
+            "Dermatologist recommended badge increases conversion"
+        ]
+    },
+    {
+        "category": "Pet Supplies > Dog Toys",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 11.2,
+                "rank": 5,
+                "trend": "steady",
+                "changePercent": 0.5
+            },
+            "competitors": [
+                {
+                    "brand": "Chuckit!",
+                    "sov": 20.6,
+                    "rank": 1,
+                    "trend": "up"
+                },
+                {
+                    "brand": "KONG",
+                    "sov": 19.4,
+                    "rank": 2,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Outward Hound",
+                    "sov": 15.2,
+                    "rank": 3,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Nylabone",
+                    "sov": 12.8,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Benebone",
+                    "sov": 8.5,
+                    "rank": 6,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 4.99,
+            "q1": 9.99,
+            "median": 15.99,
+            "q3": 24.99,
+            "max": 49.99,
+            "yourPrice": 14.99
+        },
+        "topProducts": [
+            {
+                "asin": "B000274635",
+                "title": "Chuckit! Ultra Ball",
+                "rank": 1,
+                "price": 5.00,
+                "rating": 4.8,
+                "reviews": 89000
+            },
+            {
+                "asin": "B08L789012",
+                "title": "YourBrand Tough Chew Toy",
+                "rank": 5,
+                "price": 14.99,
+                "rating": 4.6,
+                "reviews": 1200
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 4.5,
+            "seasonality": "Medium (Q4)",
+            "competitionLevel": "High"
+        },
+        "keyInsights": [
+            "Durability is #1 customer complaint",
+            "Interactive toys seeing highest growth",
+            "Natural material toys fetch premium"
+        ]
+    },
+    {
+        "category": "Electronics > Headphones",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 5.4,
+                "rank": 9,
+                "trend": "up",
+                "changePercent": 2.1
+            },
+            "competitors": [
+                {
+                    "brand": "Sony",
+                    "sov": 28.5,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Bose",
+                    "sov": 22.1,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Anker Soundcore",
+                    "sov": 15.6,
+                    "rank": 3,
+                    "trend": "up"
+                },
+                {
+                    "brand": "JBL",
+                    "sov": 12.4,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Beats",
+                    "sov": 8.9,
+                    "rank": 5,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 29.99,
+            "q1": 59.99,
+            "median": 99.99,
+            "q3": 199.99,
+            "max": 399.99,
+            "yourPrice": 79.99
+        },
+        "topProducts": [
+            {
+                "asin": "B094234567",
+                "title": "Sony WH-1000XM5",
+                "rank": 1,
+                "price": 348.00,
+                "rating": 4.7,
+                "reviews": 15000
+            },
+            {
+                "asin": "B08F567890",
+                "title": "YourBrand Noise Cancelling Headphones",
+                "rank": 9,
+                "price": 79.99,
+                "rating": 4.4,
+                "reviews": 550
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 2.2,
+            "seasonality": "High (Q4/Prime Day)",
+            "competitionLevel": "Extreme"
+        },
+        "keyInsights": [
+            "ANC (Active Noise Cancellation) now expected at mid-range",
+            "Battery life claims > 30h driving sales",
+            "Comfort keywords appearing frequently in negative reviews"
+        ]
+    },
+    {
+        "category": "Baby > Diaper Bags",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 11.8,
+                "rank": 3,
+                "trend": "steady",
+                "changePercent": 0.0
+            },
+            "competitors": [
+                {
+                    "brand": "Ruvalino",
+                    "sov": 24.5,
+                    "rank": 1,
+                    "trend": "up"
+                },
+                {
+                    "brand": "HapTim",
+                    "sov": 15.2,
+                    "rank": 2,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Skip Hop",
+                    "sov": 10.5,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Itzy Ritzy",
+                    "sov": 9.8,
+                    "rank": 5,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Petunia Pickle Bottom",
+                    "sov": 8.1,
+                    "rank": 6,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 24.99,
+            "q1": 39.99,
+            "median": 55.00,
+            "q3": 89.99,
+            "max": 159.99,
+            "yourPrice": 49.99
+        },
+        "topProducts": [
+            {
+                "asin": "B071F23456",
+                "title": "Ruvalino Multifunction Travel Backpack",
+                "rank": 1,
+                "price": 42.99,
+                "rating": 4.8,
+                "reviews": 32000
+            },
+            {
+                "asin": "B08B567891",
+                "title": "YourBrand Stylish Diaper Tote",
+                "rank": 3,
+                "price": 49.99,
+                "rating": 4.7,
+                "reviews": 2100
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 2.5,
+            "seasonality": "Low",
+            "competitionLevel": "Medium"
+        },
+        "keyInsights": [
+            "Unisex designs performing better",
+            "Integrated changing pads are mandatory",
+            "Insulated bottle pockets mentioned in 40% of positive reviews"
+        ]
+    },
+    {
+        "category": "Garden > Tools",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 9.5,
+                "rank": 4,
+                "trend": "up",
+                "changePercent": 1.9
+            },
+            "competitors": [
+                {
+                    "brand": "Fiskars",
+                    "sov": 28.9,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Gonicc",
+                    "sov": 16.4,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Edward Tools",
+                    "sov": 10.2,
+                    "rank": 3,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "Garden Guru",
+                    "sov": 8.8,
+                    "rank": 5,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Radius Garden",
+                    "sov": 6.5,
+                    "rank": 6,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 12.99,
+            "q1": 19.99,
+            "median": 29.99,
+            "q3": 49.99,
+            "max": 89.99,
+            "yourPrice": 24.99
+        },
+        "topProducts": [
+            {
+                "asin": "B00004SDCJ",
+                "title": "Fiskars Bypass Pruning Shears",
+                "rank": 1,
+                "price": 14.98,
+                "rating": 4.7,
+                "reviews": 45000
+            },
+            {
+                "asin": "B08G456789",
+                "title": "YourBrand Ergonomic Trowel",
+                "rank": 4,
+                "price": 24.99,
+                "rating": 4.6,
+                "reviews": 850
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 5.5,
+            "seasonality": "High (Q2)",
+            "competitionLevel": "Medium"
+        },
+        "keyInsights": [
+            "Ergonomic handles justify 20% price premium",
+            "Rust-proof claims essential",
+            "Gift sets popular in Spring"
+        ]
+    },
+    {
+        "category": "Luggage > Carry-Ons",
+        "shareOfVoice": {
+            "yourBrand": {
+                "sov": 6.8,
+                "rank": 8,
+                "trend": "steady",
+                "changePercent": 0.4
+            },
+            "competitors": [
+                {
+                    "brand": "Samsonite",
+                    "sov": 25.4,
+                    "rank": 1,
+                    "trend": "steady"
+                },
+                {
+                    "brand": "American Tourister",
+                    "sov": 18.2,
+                    "rank": 2,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Travelpro",
+                    "sov": 14.5,
+                    "rank": 3,
+                    "trend": "up"
+                },
+                {
+                    "brand": "Rockland",
+                    "sov": 11.2,
+                    "rank": 4,
+                    "trend": "down"
+                },
+                {
+                    "brand": "Amazon Basics",
+                    "sov": 9.5,
+                    "rank": 5,
+                    "trend": "steady"
+                }
+            ]
+        },
+        "priceDistribution": {
+            "min": 59.99,
+            "q1": 89.99,
+            "median": 139.99,
+            "q3": 229.99,
+            "max": 450.00,
+            "yourPrice": 119.99
+        },
+        "topProducts": [
+            {
+                "asin": "B07X123456",
+                "title": "Samsonite Omni PC Hardside",
+                "rank": 1,
+                "price": 149.00,
+                "rating": 4.6,
+                "reviews": 28000
+            },
+            {
+                "asin": "B09L567890",
+                "title": "YourBrand Weekender Carry-On",
+                "rank": 8,
+                "price": 119.99,
+                "rating": 4.4,
+                "reviews": 420
+            }
+        ],
+        "categoryTrends": {
+            "growthRate": 9.1,
+            "seasonality": "Medium (Summer/Holiday)",
+            "competitionLevel": "High"
+        },
+        "keyInsights": [
+            "Expandable capacity is a must-have feature",
+            "Wheel durability is #1 check point",
+            "'Underseat' keyword volume doubling yoy"
+        ]
+    }
+]

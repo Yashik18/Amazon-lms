@@ -1,0 +1,1535 @@
+[
+  {
+    "category": "Kitchen & Dining > Utensils",
+    "competitor": "OXO",
+    "asin": "B07580705",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 370,
+        "impressionShare": "22%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "OXO - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 253
+      }
+    ],
+    "keywords": [
+      "spatula top",
+      "kitchen gadgets deal",
+      "cooking utensils top",
+      "silicone spatula premium",
+      "baking tools premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "55k - 128k",
+      "clicks": "549 - 839",
+      "estimatedACoS": "32%"
+    }
+  },
+  {
+    "category": "Kitchen & Dining > Utensils",
+    "competitor": "KitchenAid",
+    "asin": "B05131780",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 168,
+        "impressionShare": "19%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "KitchenAid - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 136
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "spatula best",
+      "kitchen gadgets best",
+      "cooking utensils top",
+      "silicone spatula top",
+      "baking tools best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "44k - 65k",
+      "clicks": "301 - 1537",
+      "estimatedACoS": "27%"
+    }
+  },
+  {
+    "category": "Kitchen & Dining > Utensils",
+    "competitor": "Gorilla Grip",
+    "asin": "B09743879",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 136,
+        "impressionShare": "35%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Gorilla Grip - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 181
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "spatula deal",
+      "kitchen gadgets premium",
+      "cooking utensils top",
+      "silicone spatula top",
+      "baking tools deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "13k - 108k",
+      "clicks": "463 - 988",
+      "estimatedACoS": "29%"
+    }
+  },
+  {
+    "category": "Kitchen & Dining > Utensils",
+    "competitor": "Zulay",
+    "asin": "B08334809",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 167,
+        "impressionShare": "38%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Zulay - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 306
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "spatula best",
+      "kitchen gadgets deal",
+      "cooking utensils deal",
+      "silicone spatula deal",
+      "baking tools premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "23k - 101k",
+      "clicks": "574 - 1115",
+      "estimatedACoS": "22%"
+    }
+  },
+  {
+    "category": "Office Products > Desk Accessories",
+    "competitor": "SimpleHouseware",
+    "asin": "B03044413",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 176,
+        "impressionShare": "33%"
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "desk organizer top",
+      "pen holder top",
+      "office supplies best",
+      "mesh organizer top",
+      "desk storage best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "30k - 134k",
+      "clicks": "336 - 815",
+      "estimatedACoS": "29%"
+    }
+  },
+  {
+    "category": "Office Products > Desk Accessories",
+    "competitor": "Marbrasse",
+    "asin": "B07817149",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 164,
+        "impressionShare": "10%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Marbrasse - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 188
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "desk organizer best",
+      "pen holder best",
+      "office supplies top",
+      "mesh organizer best",
+      "desk storage deal"
+    ],
+    "landingPageOptimizations": [
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "28k - 61k",
+      "clicks": "451 - 875",
+      "estimatedACoS": "42%"
+    }
+  },
+  {
+    "category": "Office Products > Desk Accessories",
+    "competitor": "Post-it",
+    "asin": "B07181785",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 292,
+        "impressionShare": "29%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Post-it - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 363
+      }
+    ],
+    "keywords": [
+      "desk organizer top",
+      "pen holder premium",
+      "office supplies premium",
+      "mesh organizer top",
+      "desk storage best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "52k - 146k",
+      "clicks": "340 - 1437",
+      "estimatedACoS": "35%"
+    }
+  },
+  {
+    "category": "Sports & Outdoors > Resistance Bands",
+    "competitor": "Fit Simplify",
+    "asin": "B09778788",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 201,
+        "impressionShare": "15%"
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Audiences",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "resistance bands deal",
+      "workout bands top",
+      "exercise loops premium",
+      "fitness bands best",
+      "booty bands top"
+    ],
+    "landingPageOptimizations": [
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "43k - 159k",
+      "clicks": "161 - 718",
+      "estimatedACoS": "44%"
+    }
+  },
+  {
+    "category": "Sports & Outdoors > Resistance Bands",
+    "competitor": "Letsfit",
+    "asin": "B08904284",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 138,
+        "impressionShare": "27%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Letsfit - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 399
+      }
+    ],
+    "keywords": [
+      "resistance bands best",
+      "workout bands best",
+      "exercise loops top",
+      "fitness bands top",
+      "booty bands premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "11k - 137k",
+      "clicks": "187 - 724",
+      "estimatedACoS": "23%"
+    }
+  },
+  {
+    "category": "Sports & Outdoors > Resistance Bands",
+    "competitor": "Whatafit",
+    "asin": "B09695389",
+    "adTypes": [],
+    "keywords": [
+      "resistance bands deal",
+      "workout bands premium",
+      "exercise loops premium",
+      "fitness bands premium",
+      "booty bands deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "30k - 102k",
+      "clicks": "512 - 1194",
+      "estimatedACoS": "33%"
+    }
+  },
+  {
+    "category": "Home Improvement > Smart Plugs",
+    "competitor": "Kasa",
+    "asin": "B02745906",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 88,
+        "impressionShare": "19%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Kasa - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 367
+      }
+    ],
+    "keywords": [
+      "smart plug deal",
+      "wifi outlet deal",
+      "alexa plug premium",
+      "smart home deal",
+      "remote control outlet top"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "10k - 137k",
+      "clicks": "372 - 934",
+      "estimatedACoS": "30%"
+    }
+  },
+  {
+    "category": "Home Improvement > Smart Plugs",
+    "competitor": "Govee",
+    "asin": "B09480669",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 80,
+        "impressionShare": "22%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Govee - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 303
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Audiences",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "smart plug deal",
+      "wifi outlet premium",
+      "alexa plug best",
+      "smart home deal",
+      "remote control outlet deal"
+    ],
+    "landingPageOptimizations": [
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "15k - 145k",
+      "clicks": "277 - 1459",
+      "estimatedACoS": "33%"
+    }
+  },
+  {
+    "category": "Home Improvement > Smart Plugs",
+    "competitor": "Wemo",
+    "asin": "B07349510",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 261,
+        "impressionShare": "19%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Wemo - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 341
+      }
+    ],
+    "keywords": [
+      "smart plug premium",
+      "wifi outlet best",
+      "alexa plug premium",
+      "smart home premium",
+      "remote control outlet premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "29k - 150k",
+      "clicks": "491 - 1558",
+      "estimatedACoS": "16%"
+    }
+  },
+  {
+    "category": "Beauty > Face Serums",
+    "competitor": "TruSkin",
+    "asin": "B06379771",
+    "adTypes": [
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "TruSkin - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 122
+      }
+    ],
+    "keywords": [
+      "vitamin c serum premium",
+      "face serum top",
+      "anti aging best",
+      "hyaluronic acid deal",
+      "skin care premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "36k - 139k",
+      "clicks": "445 - 679",
+      "estimatedACoS": "27%"
+    }
+  },
+  {
+    "category": "Beauty > Face Serums",
+    "competitor": "CeraVe",
+    "asin": "B06389408",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 332,
+        "impressionShare": "17%"
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "vitamin c serum deal",
+      "face serum best",
+      "anti aging premium",
+      "hyaluronic acid top",
+      "skin care deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "30k - 150k",
+      "clicks": "202 - 985",
+      "estimatedACoS": "28%"
+    }
+  },
+  {
+    "category": "Beauty > Face Serums",
+    "competitor": "La Roche-Posay",
+    "asin": "B04003163",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 237,
+        "impressionShare": "26%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "La Roche-Posay - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 383
+      }
+    ],
+    "keywords": [
+      "vitamin c serum top",
+      "face serum deal",
+      "anti aging best",
+      "hyaluronic acid best",
+      "skin care best"
+    ],
+    "landingPageOptimizations": [
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "58k - 135k",
+      "clicks": "214 - 1137",
+      "estimatedACoS": "32%"
+    }
+  },
+  {
+    "category": "Beauty > Face Serums",
+    "competitor": "The Ordinary",
+    "asin": "B05192727",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 104,
+        "impressionShare": "28%"
+      }
+    ],
+    "keywords": [
+      "vitamin c serum premium",
+      "face serum deal",
+      "anti aging top",
+      "hyaluronic acid best",
+      "skin care best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "34k - 86k",
+      "clicks": "436 - 1171",
+      "estimatedACoS": "18%"
+    }
+  },
+  {
+    "category": "Pet Supplies > Dog Toys",
+    "competitor": "Chuckit!",
+    "asin": "B05002777",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 292,
+        "impressionShare": "26%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Chuckit! - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 300
+      }
+    ],
+    "keywords": [
+      "dog toys premium",
+      "chew toys best",
+      "puppy toys premium",
+      "indestructible dog toy top",
+      "squeaky toy deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "56k - 101k",
+      "clicks": "240 - 916",
+      "estimatedACoS": "24%"
+    }
+  },
+  {
+    "category": "Pet Supplies > Dog Toys",
+    "competitor": "KONG",
+    "asin": "B03003835",
+    "adTypes": [
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "KONG - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 104
+      }
+    ],
+    "keywords": [
+      "dog toys premium",
+      "chew toys best",
+      "puppy toys deal",
+      "indestructible dog toy best",
+      "squeaky toy premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "33k - 112k",
+      "clicks": "331 - 1068",
+      "estimatedACoS": "41%"
+    }
+  },
+  {
+    "category": "Pet Supplies > Dog Toys",
+    "competitor": "Outward Hound",
+    "asin": "B08880991",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 92,
+        "impressionShare": "25%"
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Audiences",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "dog toys premium",
+      "chew toys top",
+      "puppy toys top",
+      "indestructible dog toy best",
+      "squeaky toy top"
+    ],
+    "landingPageOptimizations": [
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "28k - 105k",
+      "clicks": "236 - 1075",
+      "estimatedACoS": "20%"
+    }
+  },
+  {
+    "category": "Pet Supplies > Dog Toys",
+    "competitor": "Nylabone",
+    "asin": "B05439231",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 287,
+        "impressionShare": "33%"
+      }
+    ],
+    "keywords": [
+      "dog toys top",
+      "chew toys best",
+      "puppy toys best",
+      "indestructible dog toy premium",
+      "squeaky toy premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "49k - 129k",
+      "clicks": "342 - 951",
+      "estimatedACoS": "35%"
+    }
+  },
+  {
+    "category": "Electronics > Headphones",
+    "competitor": "Sony",
+    "asin": "B01655494",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 262,
+        "impressionShare": "31%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Sony - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 359
+      }
+    ],
+    "keywords": [
+      "headphones premium",
+      "wireless headphones deal",
+      "bluetooth headset best",
+      "noise cancelling best",
+      "over ear headphones best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "33k - 147k",
+      "clicks": "344 - 797",
+      "estimatedACoS": "44%"
+    }
+  },
+  {
+    "category": "Electronics > Headphones",
+    "competitor": "Bose",
+    "asin": "B06672538",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 349,
+        "impressionShare": "33%"
+      }
+    ],
+    "keywords": [
+      "headphones premium",
+      "wireless headphones best",
+      "bluetooth headset premium",
+      "noise cancelling best",
+      "over ear headphones deal"
+    ],
+    "landingPageOptimizations": [
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "56k - 141k",
+      "clicks": "226 - 749",
+      "estimatedACoS": "40%"
+    }
+  },
+  {
+    "category": "Electronics > Headphones",
+    "competitor": "Anker",
+    "asin": "B06947157",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 177,
+        "impressionShare": "22%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Anker - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 275
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "headphones premium",
+      "wireless headphones deal",
+      "bluetooth headset deal",
+      "noise cancelling premium",
+      "over ear headphones premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "52k - 103k",
+      "clicks": "366 - 881",
+      "estimatedACoS": "32%"
+    }
+  },
+  {
+    "category": "Electronics > Headphones",
+    "competitor": "JBL",
+    "asin": "B02465623",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 124,
+        "impressionShare": "26%"
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Audiences",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "headphones premium",
+      "wireless headphones premium",
+      "bluetooth headset best",
+      "noise cancelling premium",
+      "over ear headphones deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "55k - 108k",
+      "clicks": "488 - 892",
+      "estimatedACoS": "21%"
+    }
+  },
+  {
+    "category": "Baby > Diaper Bags",
+    "competitor": "Ruvalino",
+    "asin": "B02308769",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 305,
+        "impressionShare": "30%"
+      }
+    ],
+    "keywords": [
+      "diaper bag premium",
+      "baby bag best",
+      "mommy bag premium",
+      "backpack diaper bag premium",
+      "travel baby bag best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "53k - 106k",
+      "clicks": "416 - 1395",
+      "estimatedACoS": "21%"
+    }
+  },
+  {
+    "category": "Baby > Diaper Bags",
+    "competitor": "HapTim",
+    "asin": "B01748474",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 422,
+        "impressionShare": "31%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "HapTim - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 324
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "diaper bag deal",
+      "baby bag best",
+      "mommy bag best",
+      "backpack diaper bag top",
+      "travel baby bag top"
+    ],
+    "landingPageOptimizations": [
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "36k - 109k",
+      "clicks": "480 - 859",
+      "estimatedACoS": "39%"
+    }
+  },
+  {
+    "category": "Baby > Diaper Bags",
+    "competitor": "Skip Hop",
+    "asin": "B08214511",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 61,
+        "impressionShare": "34%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Skip Hop - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 184
+      }
+    ],
+    "keywords": [
+      "diaper bag top",
+      "baby bag top",
+      "mommy bag top",
+      "backpack diaper bag premium",
+      "travel baby bag top"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "48k - 119k",
+      "clicks": "529 - 640",
+      "estimatedACoS": "36%"
+    }
+  },
+  {
+    "category": "Garden > Tools",
+    "competitor": "Fiskars",
+    "asin": "B08344415",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 239,
+        "impressionShare": "17%"
+      }
+    ],
+    "keywords": [
+      "pruning shears best",
+      "garden tools premium",
+      "gardening set top",
+      "hand trowel deal",
+      "clipper best"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "49k - 148k",
+      "clicks": "143 - 1497",
+      "estimatedACoS": "37%"
+    }
+  },
+  {
+    "category": "Garden > Tools",
+    "competitor": "Gonicc",
+    "asin": "B03834092",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 143,
+        "impressionShare": "26%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Gonicc - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 160
+      }
+    ],
+    "keywords": [
+      "pruning shears deal",
+      "garden tools top",
+      "gardening set deal",
+      "hand trowel top",
+      "clipper deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "33k - 114k",
+      "clicks": "285 - 895",
+      "estimatedACoS": "18%"
+    }
+  },
+  {
+    "category": "Garden > Tools",
+    "competitor": "Edward Tools",
+    "asin": "B08513204",
+    "adTypes": [],
+    "keywords": [
+      "pruning shears premium",
+      "garden tools premium",
+      "gardening set best",
+      "hand trowel best",
+      "clipper top"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "31k - 66k",
+      "clicks": "269 - 1300",
+      "estimatedACoS": "24%"
+    }
+  },
+  {
+    "category": "Garden > Tools",
+    "competitor": "Garden Guru",
+    "asin": "B05280784",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 287,
+        "impressionShare": "39%"
+      }
+    ],
+    "keywords": [
+      "pruning shears best",
+      "garden tools premium",
+      "gardening set top",
+      "hand trowel top",
+      "clipper premium"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "19k - 65k",
+      "clicks": "548 - 1184",
+      "estimatedACoS": "39%"
+    }
+  },
+  {
+    "category": "Luggage > Carry-Ons",
+    "competitor": "Samsonite",
+    "asin": "B06923065",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 71,
+        "impressionShare": "16%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Samsonite - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": true
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 197
+      }
+    ],
+    "keywords": [
+      "carry on luggage premium",
+      "suitcase best",
+      "travel bag deal",
+      "hardshell luggage top",
+      "spinner wheels premium"
+    ],
+    "landingPageOptimizations": [
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "10k - 130k",
+      "clicks": "386 - 759",
+      "estimatedACoS": "37%"
+    }
+  },
+  {
+    "category": "Luggage > Carry-Ons",
+    "competitor": "American Tourister",
+    "asin": "B05334659",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 132,
+        "impressionShare": "32%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "American Tourister - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 265
+      }
+    ],
+    "keywords": [
+      "carry on luggage best",
+      "suitcase premium",
+      "travel bag premium",
+      "hardshell luggage deal",
+      "spinner wheels deal"
+    ],
+    "landingPageOptimizations": [
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "16k - 102k",
+      "clicks": "386 - 883",
+      "estimatedACoS": "40%"
+    }
+  },
+  {
+    "category": "Luggage > Carry-Ons",
+    "competitor": "Travelpro",
+    "asin": "B06427863",
+    "adTypes": [
+      {
+        "type": "Sponsored Product",
+        "placements": [
+          "Top of Search",
+          "Product Pages"
+        ],
+        "estimatedDailySpend": 239,
+        "impressionShare": "26%"
+      },
+      {
+        "type": "Sponsored Brand",
+        "creative": {
+          "headline": "Travelpro - Premium Quality for Your Needs",
+          "logo": "Brand Logo",
+          "productCount": 3,
+          "customImage": false
+        },
+        "placements": [
+          "Top of Search"
+        ],
+        "spend": 396
+      },
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "carry on luggage deal",
+      "suitcase premium",
+      "travel bag premium",
+      "hardshell luggage best",
+      "spinner wheels deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Brand Story",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "13k - 123k",
+      "clicks": "315 - 1256",
+      "estimatedACoS": "36%"
+    }
+  },
+  {
+    "category": "Luggage > Carry-Ons",
+    "competitor": "Rockland",
+    "asin": "B05015541",
+    "adTypes": [
+      {
+        "type": "Sponsored Display",
+        "targetingType": "Contextual",
+        "creative": {
+          "headline": "Shop the best deals now",
+          "image": "Lifestyle image"
+        }
+      }
+    ],
+    "keywords": [
+      "carry on luggage deal",
+      "suitcase best",
+      "travel bag top",
+      "hardshell luggage premium",
+      "spinner wheels deal"
+    ],
+    "landingPageOptimizations": [
+      "A+ Content",
+      "Video",
+      "High Res Images"
+    ],
+    "adPerformanceEstimate": {
+      "impressions": "44k - 118k",
+      "clicks": "460 - 1503",
+      "estimatedACoS": "21%"
+    }
+  }
+]
