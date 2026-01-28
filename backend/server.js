@@ -41,7 +41,12 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Routes Placeholder
 app.get('/', (req, res) => {
-  res.send('Amazon LMS API is running');
+  const dbStatus = mongoose.connection.readyState === 1 ? 'Connected' : 'Disconnected';
+  res.json({
+    message: 'Amazon LMS API is running',
+    dbStatus,
+    env: process.env.NODE_ENV
+  });
 });
 
 // Import Routes
