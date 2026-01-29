@@ -63,7 +63,7 @@ exports.getRelevantContext = async (message) => {
 };
 
 // Main Chat Function
-exports.chatWithAI = async (userMessage, conversationHistory, context) => {
+exports.chatWithAI = async (userMessage, conversationHistory, context, inlineParts = []) => {
     try {
         const history = conversationHistory.map(msg => ({
             role: msg.role === 'assistant' ? 'model' : 'user', // Map assistant -> model for Gemini
@@ -82,7 +82,7 @@ exports.chatWithAI = async (userMessage, conversationHistory, context) => {
       Available Data Context:
       ${JSON.stringify(context, null, 2)}
 
-      Instructions:
+      STRICT Instructions:
       1. **CRITICAL: CONTEXT RELEVANCE CHECK**
          - The 'Available Data Context' provided below might be for a DIFFERENT product than what the user is asking about.
          - **STEP 1**: Identify the User's Product (e.g., "Children Toys").
@@ -93,18 +93,20 @@ exports.chatWithAI = async (userMessage, conversationHistory, context) => {
            - **INSTEAD**: Answer the user's question directly using your internal general knowledge as if no context was provided.
 
       2. **Answering Rule**:
-         - If Context is Relevant: Use it to provide specific data tables and analysis.
-         - If Context is Irrelevant/Missing: Generate a **theoretical** answer based on general Amazon best practices. Create a table of legitimate *example* keywords/metrics based on your training data.
+         - **DIRECT & IMPACTFUL**: Answer the question directly. Do NOT provide examples, action steps, or extra fluff unless explicitly asked.
+         - If Context is Relevant: Prioritize showing the specific data/table first, then explain.
+         - If Context is Irrelevant/Missing: Answer based on general knowledge without mentioning missing data.
 
       3. **Response Structure**:
-         - **Concept**: Brief explanation.
-         - **Data Analysis**: The table/data (Real or General Knowledge per above rules).
-         - **Action Steps**: 3-5 concrete things to do.
-         - **Example**: A short scenario.
-
-      4. **Disclaimer**:
-         - If using General Knowledge, add a small note: *"Note: Generated based on general market knowledge as specific account data was not found."*
+         - **Direct Answer**: The core answer to the user's question.
+         - **Data Analysis**: (Only if context/data is available) The specific table or metrics.
     `;
+
+        // Construct current user message parts
+        const userParts = [{ text: userMessage }];
+        if (inlineParts && inlineParts.length > 0) {
+            userParts.push(...inlineParts);
+        }
 
         const chat = model.startChat({
             history: [
@@ -118,13 +120,14 @@ exports.chatWithAI = async (userMessage, conversationHistory, context) => {
             },
         });
 
-        const result = await chat.sendMessage(userMessage);
+        const result = await chat.sendMessage(userParts);
         const response = await result.response;
         return response.text();
     } catch (error) {
         console.error("AI Chat Error:", error);
         throw error; // Rethrow original error to allow controller to handle 429s
     }
+    // End of Function (Added close brace in replacement to match chunk)
 };
 
 // Evaluate Scenario Answer

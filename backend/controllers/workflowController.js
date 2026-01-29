@@ -169,3 +169,22 @@ exports.getWorkflowHint = async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 };
+
+// @desc    Delete a workflow
+// @route   DELETE /api/v1/workflows/:id
+// @access  Private/Admin
+exports.deleteWorkflow = async (req, res) => {
+    try {
+        const workflow = await Workflow.findById(req.params.id);
+
+        if (!workflow) {
+            return res.status(404).json({ success: false, message: 'Workflow not found' });
+        }
+
+        await workflow.deleteOne();
+
+        res.json({ success: true, message: 'Workflow removed' });
+    } catch (error) {
+        res.status(500).json({ success: false, message: error.message });
+    }
+};

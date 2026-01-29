@@ -4,6 +4,7 @@ import Analytics from './Analytics';
 import DatasetUpload from './DatasetUpload';
 import WorkflowBuilder from './WorkflowBuilder';
 import ScenarioCreator from './ScenarioCreator';
+import ModuleCreator from './ModuleCreator';
 import LoadingScreen from '../common/LoadingScreen';
 
 const AdminDashboard = () => {
@@ -26,6 +27,7 @@ const AdminDashboard = () => {
                     <Tab label="Datasets" />
                     <Tab label="Workflows" />
                     <Tab label="Scenarios" />
+                    <Tab label="Modules" />
                 </Tabs>
             </Box>
 
@@ -37,6 +39,7 @@ const AdminDashboard = () => {
                     {value === 1 && <DatasetUpload />}
                     {value === 2 && <WorkflowBuilder />}
                     {value === 3 && <ScenarioCreator />}
+                    {value === 4 && <ModuleCreator />}
                 </Box>
             )}
             <style>{`

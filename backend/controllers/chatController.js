@@ -37,10 +37,92 @@ exports.sendMessage = async (req, res) => {
             });
         }
 
-        // 4. Add User Message (In Reference to DB)
+        const { attachments } = req.body; // Expect array of { fileUrl, fileType, originalName, localPath, mimeType }
+
+        // Prepare Attachment Content for AI (Text extraction or Inline Data)
+        let attachmentContext = "";
+        const inlineParts = [];
+
+        if (attachments && attachments.length > 0) {
+            const fs = require('fs');
+            const path = require('path');
+            const mammoth = require('mammoth');
+            const xlsx = require('xlsx');
+            const pdf = require('pdf-parse'); // Import pdf-parse
+
+            for (const file of attachments) {
+                try {
+                    const filePath = file.localPath ? file.localPath : path.join(__dirname, '..', file.fileUrl);
+
+                    if (!fs.existsSync(filePath)) {
+                        console.warn(`File not found: ${filePath}`);
+                        continue;
+                    }
+
+                    if (file.mimeType === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
+                        // DOCX: Extract Text
+                        const result = await mammoth.extractRawText({ path: filePath });
+                        attachmentContext += `\n[Document Content (${file.originalName})]:\n${result.value}\n----------------\n`;
+                    } else if (file.mimeType === 'application/pdf') {
+                        // PDF: Extract Text for Persistence + Inline for Vision
+                        const fileBuffer = fs.readFileSync(filePath);
+
+                        // 1. Vision Context (Current Turn)
+                        inlineParts.push({
+                            inlineData: {
+                                data: fileBuffer.toString('base64'),
+                                mimeType: file.mimeType
+                            }
+                        });
+
+                        // 2. Text Context (History Persistence)
+                        try {
+                            const pdfData = await pdf(fileBuffer);
+                            attachmentContext += `\n[PDF Content (${file.originalName})]:\n${pdfData.text}\n----------------\n`;
+                        } catch (pdfErr) {
+                            console.error("PDF Text Extraction Failed:", pdfErr);
+                            attachmentContext += `\n[PDF Attached: ${file.originalName} (Text extraction failed)]\n`;
+                        }
+
+                    } else if (file.mimeType.startsWith('image/')) {
+                        // Image: Inline for Vision + Marker for History
+                        const fileBuffer = fs.readFileSync(filePath);
+                        inlineParts.push({
+                            inlineData: {
+                                data: fileBuffer.toString('base64'),
+                                mimeType: file.mimeType
+                            }
+                        });
+                        // Add marker to context so AI knows about previous images in history
+                        attachmentContext += `\n[Image Attached: ${file.originalName}]\n`;
+
+                    } else if (
+                        file.mimeType === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' ||
+                        file.mimeType === 'application/vnd.ms-excel'
+                    ) {
+                        // EXCEL: Parse to CSV
+                        const workbook = xlsx.readFile(filePath);
+                        const sheetName = workbook.SheetNames[0]; // Read first sheet
+                        const worksheet = workbook.Sheets[sheetName];
+                        const csvData = xlsx.utils.sheet_to_csv(worksheet);
+                        attachmentContext += `\n[Excel Data (${file.originalName})]:\n${csvData}\n----------------\n`;
+                    }
+                } catch (err) {
+                    console.error(`Error processing file ${file.originalName}:`, err);
+                    attachmentContext += `\n[Error reading file: ${file.originalName}]\n`;
+                }
+            }
+        }
+
+        // Combine User Message + Extracted Text
+        const fullUserMessage = message + (attachmentContext ? `\n\nAttached Document Context:\n${attachmentContext}` : "");
+
+        // 4. Add User Message to DB
         conversation.messages.push({
             role: 'user',
-            content: message
+            content: message, // Store original display message
+            aiContext: fullUserMessage, // Persist the full extracted text for history recall
+            attachments: attachments || []
         });
 
         // Save here to ensure user message is persisted even if AI fails
@@ -53,13 +135,19 @@ exports.sendMessage = async (req, res) => {
         const historyMessages = conversation.messages.slice(0, -1);
         const limitedHistory = historyMessages.slice(-20);
 
-        const historyForAI = limitedHistory.map(msg => ({
-            role: msg.role,
-            content: msg.content
-        }));
+        // Map history to Google format (Handling legacy text-only messages vs new structure)
+        const historyForAI = limitedHistory.map(msg => {
+            // Use persisted aiContext if available (rewinds document content), else fall back to display content
+            const contentForTurn = msg.aiContext || msg.content;
 
-        // 7. Call AI Service
-        const aiResponseText = await aiService.chatWithAI(message, historyForAI, context);
+            return {
+                role: msg.role,
+                content: contentForTurn
+            };
+        });
+
+        // 7. Call AI Service (Pass inlineParts for CURRENT message)
+        const aiResponseText = await aiService.chatWithAI(fullUserMessage, historyForAI, context, inlineParts);
 
         // 8. Add AI Message
         conversation.messages.push({

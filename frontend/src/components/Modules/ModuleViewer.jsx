@@ -4,6 +4,7 @@ import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Typography, 
 import CloseIcon from '@mui/icons-material/Close';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 
 const ModuleViewer = ({ module, open, onClose, onComplete }) => {
     if (!module) return null;
@@ -42,7 +43,7 @@ const ModuleViewer = ({ module, open, onClose, onComplete }) => {
                     '& li': { mb: 1 },
                     '& strong': { color: 'text.primary' },
                 }}>
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
                         {module.content || "_No content available._"}
                     </ReactMarkdown>
                 </Box>

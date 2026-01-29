@@ -84,3 +84,22 @@ exports.submitAnswer = async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 };
+
+// @desc    Delete a scenario
+// @route   DELETE /api/v1/scenarios/:id
+// @access  Private/Admin
+exports.deleteScenario = async (req, res) => {
+    try {
+        const scenario = await Scenario.findById(req.params.id);
+
+        if (!scenario) {
+            return res.status(404).json({ success: false, message: 'Scenario not found' });
+        }
+
+        await scenario.deleteOne();
+
+        res.json({ success: true, message: 'Scenario removed' });
+    } catch (error) {
+        res.status(500).json({ success: false, message: error.message });
+    }
+};

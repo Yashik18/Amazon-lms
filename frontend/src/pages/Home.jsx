@@ -5,19 +5,21 @@ import SmartToyIcon from '@mui/icons-material/SmartToy';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import SchoolIcon from '@mui/icons-material/School';
 
-const FeatureCard = ({ icon, title, description }) => (
+const FeatureCard = ({ icon, title, description, onClick }) => (
     <Paper
+        onClick={onClick}
         sx={{
             p: 3,
             height: '100%',
-            width: '3000mm',
+            width: '100%',
             textAlign: 'center',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
             transition: 'transform 0.2s',
-            '&:hover': { transform: 'translateY(-5px)' }
+            cursor: 'pointer',
+            '&:hover': { transform: 'translateY(-5px)', boxShadow: 6 }
         }}
         elevation={3}
     >
@@ -61,6 +63,7 @@ const Home = () => {
                             icon={<SmartToyIcon fontSize="large" />}
                             title="Smart Chatbot"
                             description="Chat with an expert AI trained on market intelligence data. Get instant answers to complex SEO and PPC questions."
+                            onClick={() => navigate('/chat')}
                         />
                     </Grid>
                     <Grid item xs={12} md={4} sx={{ display: 'flex' }}>
@@ -68,6 +71,7 @@ const Home = () => {
                             icon={<BarChartIcon fontSize="large" />}
                             title="Guided Workflows"
                             description="Step-by-step interactive playbooks for launching products, optimizing listings, and managing ad campaigns."
+                            onClick={() => navigate('/workflows')}
                         />
                     </Grid>
                     <Grid item xs={12} md={4} sx={{ display: 'flex' }}>
@@ -75,6 +79,7 @@ const Home = () => {
                             icon={<SchoolIcon fontSize="large" />}
                             title="Real Scenarios"
                             description="Test your skills in high-pressure simulations using real Helium 10 and Pi Datametrics snapshots."
+                            onClick={() => navigate('/scenarios')}
                         />
                     </Grid>
                 </Grid>

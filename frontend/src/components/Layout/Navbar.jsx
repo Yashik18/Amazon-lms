@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Box, Menu, MenuItem, useTheme, useMediaQuery, Container } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, IconButton, Box, Menu, MenuItem, useTheme, useMediaQuery, Container, Divider } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import SchoolIcon from '@mui/icons-material/School';
@@ -135,7 +135,6 @@ const Navbar = () => {
                                 key={item.label}
                                 component={NavLink}
                                 to={item.path}
-                                onClick={() => setMobileMenuOpen(false)}
                                 sx={{
                                     my: 2,
                                     color: 'text.primary',
@@ -168,7 +167,15 @@ const Navbar = () => {
                                     open={Boolean(anchorEl)}
                                     onClose={handleClose}
                                 >
-                                    <MenuItem disabled>{user?.name}</MenuItem>
+                                    <Box sx={{ px: 2, py: 1 }}>
+                                        <Typography variant="subtitle1" fontWeight="bold">
+                                            {user?.name || 'User'}
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            {user?.email}
+                                        </Typography>
+                                    </Box>
+                                    <Divider />
                                     <MenuItem onClick={handleLogout}>Logout</MenuItem>
                                 </Menu>
                             </>

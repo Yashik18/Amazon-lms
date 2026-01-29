@@ -85,4 +85,46 @@ exports.completeModule = async (req, res) => {
     } catch (error) {
         res.status(500).json({ success: false, message: error.message });
     }
+}
+
+
+// @desc    Create a new module
+// @route   POST /api/v1/modules
+// @access  Private/Admin
+exports.createModule = async (req, res) => {
+    try {
+        const { title, description, category, content, estimatedTime, order } = req.body;
+
+        const module = await Module.create({
+            title,
+            description,
+            category,
+            content,
+            estimatedTime,
+            order: order || 0
+        });
+
+        res.status(201).json({ success: true, data: module });
+    } catch (error) {
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+// @desc    Delete a module
+// @route   DELETE /api/v1/modules/:id
+// @access  Private/Admin
+exports.deleteModule = async (req, res) => {
+    try {
+        const module = await Module.findById(req.params.id);
+
+        if (!module) {
+            return res.status(404).json({ success: false, message: 'Module not found' });
+        }
+
+        await module.deleteOne();
+
+        res.json({ success: true, message: 'Module removed' });
+    } catch (error) {
+        res.status(500).json({ success: false, message: error.message });
+    }
 };

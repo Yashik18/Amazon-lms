@@ -23,6 +23,14 @@ const conversationSchema = new mongoose.Schema({
         },
         references: [{
             type: String // Links or IDs of referenced data
+        }],
+        aiContext: String, // Store the full context/extracted text for AI (hidden from UI)
+        attachments: [{
+            fileUrl: String,
+            fileType: String,
+            originalName: String,
+            mimeType: String,
+            localPath: String // Store local path for backend processing
         }]
     }]
 }, {

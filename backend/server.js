@@ -67,6 +67,14 @@ app.use('/api/v1/modules', moduleRoutes);
 app.use('/api/v1/progress', progressRoutes);
 app.use('/api/v1/admin', adminRoutes);
 
+// Import Upload Routes
+const uploadRoutes = require('./routes/upload.routes');
+app.use('/api/v1/upload', uploadRoutes);
+
+// Serve Uploads Static Folder
+const path = require('path');
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 // Error Handling Middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);

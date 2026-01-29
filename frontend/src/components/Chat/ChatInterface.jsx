@@ -17,6 +17,8 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
     const [activeId, setActiveId] = useState(conversationIdProp);
     const [loading, setLoading] = useState(false);
 
+    const [isTyping, setIsTyping] = useState(false);
+
     // Reliable Sync: Whenever prop changes, update activeId and fetch/clear
     useEffect(() => {
         setActiveId(conversationIdProp);
@@ -33,7 +35,9 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
         try {
             const res = await api.get(`/chat/history/${id}`);
             if (res.data.success) {
-                setMessages(res.data.data.messages || []);
+                // History messages are never "new"
+                const loadedMsgs = (res.data.data.messages || []).map(m => ({ ...m, isNew: false }));
+                setMessages(loadedMsgs);
             }
         } catch (error) {
             console.error("Failed to load history", error);
@@ -43,10 +47,18 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
         }
     };
 
-    const handleSendMessage = async (text) => {
+    const handleSendMessage = async (text, attachments = []) => {
         // Optimistic update
-        const userMsg = { role: 'user', content: text, timestamp: new Date() };
-        setMessages(prev => [...prev, userMsg]);
+        const userMsg = {
+            role: 'user',
+            content: text,
+            attachments: attachments,
+            timestamp: new Date()
+        };
+
+        // Clear previous isNew flags using map, then append new
+        setMessages(prev => [...prev.map(m => ({ ...m, isNew: false })), userMsg]);
+
         // Don't set loading true here if we want to show the user message immediately without blocked UI
         // But we DO want to show a typing indicator. MessageList handles isLoading prop.
         setLoading(true);
@@ -56,7 +68,8 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
             // If we satisfy "New Chat", conversationIdProp is null.
             const res = await api.post('/chat/message', {
                 message: text,
-                conversationId: activeId
+                conversationId: activeId,
+                attachments: attachments
             });
 
             if (res.data.success) {
@@ -69,7 +82,9 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
                 }
 
                 // Add AI response with animation flag
-                setMessages(prev => [...prev, { ...aiMsg, isNew: true }]);
+                // Mark ONLY this new message as isNew
+                setIsTyping(true); // Start blocking input for typing effect
+                setMessages(prev => [...prev.map(m => ({ ...m, isNew: false })), { ...aiMsg, isNew: true }]);
             }
         } catch (error) {
             console.error("Chat Error", error);
@@ -91,8 +106,12 @@ const ChatInterface = ({ conversationIdProp, onConversationCreated }) => {
                 borderRadius: 2
             }}
         >
-            <MessageList messages={messages} isLoading={loading} />
-            <MessageInput onSend={handleSendMessage} isLoading={loading} />
+            <MessageList
+                messages={messages}
+                isLoading={loading}
+                onTypingComplete={() => setIsTyping(false)}
+            />
+            <MessageInput onSend={handleSendMessage} isLoading={loading || isTyping} />
         </Paper>
     );
 };

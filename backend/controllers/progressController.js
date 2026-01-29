@@ -1,5 +1,5 @@
-const User = require('../models/User');
-const Achievement = require('../utils/achievements'); // Actually raw list, but we have helper locally for now
+const Module = require('../models/Module'); // Import Module model
+const User = require('../models/User'); // Import User model
 const { ACHIEVEMENTS } = require('../utils/achievements');
 
 // @desc    Get user progress
@@ -13,9 +13,13 @@ exports.getProgress = async (req, res) => {
             return res.status(401).json({ success: false, message: 'Not authorized' });
         }
 
+        // Fetch all available module categories to ensure the breakdown is complete
+        const allModuleCategories = await Module.distinct('category');
+
         const user = await User.findById(targetUserId)
             .populate('progress.workflowsCompleted', 'title estimatedTime category')
-            .populate('progress.scenariosAttempted.scenarioId', 'title difficulty category');
+            .populate('progress.scenariosAttempted.scenarioId', 'title difficulty category')
+            .populate('progress.modulesCompleted', 'category'); // Populate modules for category stats
 
         if (!user) {
             return res.status(404).json({ success: false, message: 'User not found' });
@@ -48,6 +52,13 @@ exports.getProgress = async (req, res) => {
         // --- 2. Real Category Tracking ---
         const categoryStats = {}; // { "PPC": { total: 0, count: 0 } }
 
+        // Initialize with ALL available categories from Modules (so they show up even if 0%)
+        if (allModuleCategories && allModuleCategories.length > 0) {
+            allModuleCategories.forEach(cat => {
+                categoryStats[cat] = { total: 0, count: 0 };
+            });
+        }
+
         // Process Scenarios
         Object.values(scenarioBestScores).forEach(item => {
             const cat = item.category;
@@ -60,7 +71,19 @@ exports.getProgress = async (req, res) => {
 
         // Process Workflows (Assume completion = 100%)
         user.progress.workflowsCompleted.forEach(wf => {
+            if (!wf) return;
             const cat = wf.category || 'Workflows';
+            if (!categoryStats[cat]) categoryStats[cat] = { total: 0, count: 0 };
+
+            categoryStats[cat].total += 100;
+            categoryStats[cat].count += 1;
+        });
+
+        // Process Modules (Assume completion = 100%)
+        // Note: user.progress.modulesCompleted is now populated with objects { _id, category }
+        user.progress.modulesCompleted.forEach(mod => {
+            if (!mod) return; // Skip if module was deleted
+            const cat = mod.category || 'General';
             if (!categoryStats[cat]) categoryStats[cat] = { total: 0, count: 0 };
 
             categoryStats[cat].total += 100;
